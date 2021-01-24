@@ -1,0 +1,20 @@
+{
+  "name": "@mrkeksz/js-aes",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "encrypt"
+  ],
+  "author": "Mozharov Vladislav <mrkeksz@yandex.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "js-aes": "index.js"
+  }
+}
